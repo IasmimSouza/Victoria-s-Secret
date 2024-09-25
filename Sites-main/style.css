@@ -1,0 +1,446 @@
+body {
+    font-family: '';
+    margin: 0;
+}
+
+
+header{
+    height: 110px;
+}
+
+
+.frete {
+    background-color: rgb(248, 227, 227);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frete p {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    padding: 19px;
+}
+
+.frete a {
+    text-decoration: none;
+    border: solid 0.5px;
+    padding: 6.3px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.info {
+    background-color: rgba(237, 235, 243, 0.432);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo a.active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    font-family: 'logo';
+    font-size: 11px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo p {
+    padding: 20px;
+    align-items: center;
+
+}
+
+.logo #pink {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 9.5px;
+    text-align: center;
+
+}
+
+#giftcard img{
+  
+}
+
+.icone {
+    color: rgba(0, 0, 0, 0.904);
+    font-size: 25px;
+    margin-right: 80px;
+}
+
+.icone a {
+    color: rgba(0, 0, 0, 0.747);
+    padding: 11.5px;
+}
+
+.monst {
+    width: 100%;
+    background-color: white;
+    display: block;
+    align-items: center;
+    height: 2px;
+    padding: 30px;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 23px;
+}
+
+.search2 {
+    background-color: #f5f5f5d0;
+    height: 40px;
+    width: 220px;
+    position: relative;
+    bottom: 180px;
+    padding: 5px;
+    left: 1000px;
+   
+}
+
+.search i{
+    background-color: #f5f5f5d0;
+    border-radius:4px;
+    bottom: 0px;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    unicode-bidi: isolate;
+    font-size: 20px;
+    margin-right: 1px;
+}
+
+.icone{
+position: relative;
+bottom: 34px;
+left: 3px;
+display: flex;
+justify-content: space-between;
+}
+
+.icone2 {
+    position: relative;
+    bottom: 59px;
+    left: 192px;
+}
+
+.categ2 {
+    margin-top: 160px;
+    margin-right: 100px;
+    position: relative;
+    right: 1300px;
+    top: 65px;
+
+}
+
+.search2 input{
+    background-color: #f5f5f5d0;
+    width: 130px;
+    height: 30px;
+   border: none; 
+   padding: 7px;
+   border-radius: 3px;
+   margin-left: 29px;
+   outline: none;    
+   justify-content: center;
+   
+}
+
+.logomain p {
+    position: relative;    
+    padding: 4px;
+    bottom: 94px;
+    left: 460px;
+    font-family: 'logo';
+    font-size: 35px;
+    font-weight: 500;
+    cursor: pointer;
+    bottom: 100px;
+}
+
+@font-face {
+
+    src: url(ShowcaseSansMini.otf) format('opentype');
+    font-family: 'vic2';
+}
+
+
+
+@font-face {
+    font-family: 'logo';
+    src: url(Goudy\ Titling\ W05\ Regular.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'vic';
+    src: url(wien-pro.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'vic3';
+    src: url(garamond-premier-pro-display.otf) format('opentype');
+}
+
+
+@font-face {
+
+    src: url(Fontspring-DEMO-tt_commons_pro_regular.otf) format('opentype');
+    font-family: 'vic4';
+}
+
+.monst a { 
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.photo img {
+    width: 35px;
+    height: 33px;
+    margin-right: 20px;
+    padding: 6px;
+    position: relative;
+    bottom: 155px;
+    right: 2px;
+}
+
+.categ {
+    font-family: 'vic2';
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 98px;
+    right: 50px;
+    left: 1200px;
+    padding: 10px;
+
+}
+
+.floater {
+    display: block;
+    position: relative;
+    right: 1200px; 
+    padding: 0px;
+    bottom: 100px;
+}
+
+ul li {
+    margin-top: 0px;
+    margin: 0px;
+    padding: 1px;
+    position: relative;
+   margin: 0px;
+   right: 10px;
+   top: 3px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.categ a {
+    padding: 23px;
+    font-size: 25px;
+    color: rgb(41, 34, 34);
+    text-decoration-line: none;    
+    padding: 9px;
+}
+
+.id p {
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 26px;
+    margin: 0;
+    padding: 4px; 
+    margin: 0;
+    cursor: pointer;
+    margin-left: 3px;
+    font-weight: 500;
+}
+
+.id { 
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+        cursor: pointer;
+}
+
+.lang {
+    margin-bottom: 20px;
+    margin-left: 3px;
+    margin: 0;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    cursor: pointer;
+}
+
+.lang::before {
+    
+    
+}
+
+.id img {
+    border-radius: 50px;
+    width: 14px;
+    height: 12px;
+    padding: 4px;
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+}
+
+    .dream {
+       background-color: #FEDFE2;
+       width: 100%;
+       height: 300px;
+    
+    }
+    
+    .det {
+        font-family: 'vic';
+        font-weight: 600;
+        margin-left: 610px;
+        padding: 10px;
+    
+    }
+
+    .det2 {
+        background-color: #FEDFE2;
+        font-family: 'vic3';
+        font-weight: 500;
+        margin: auto;
+        margin-left: 355px;
+        font-size: 43px;
+        position: relative;
+        bottom: 17px;
+    }
+
+
+    .det3 {
+        font-family: 'vic4';
+        font-size: 19px;
+        margin-left: 250px;
+        padding: 0;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .dream img {
+        height: 107px;
+        margin-left: 500px;
+        padding: 0;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .meio {
+        background-color: #f7e3e5;
+        margin-top: 0px;
+    }
+
+        
+    .imagem3 {
+            background-color: #31432D;         
+     }
+
+    
+    .imagem3 img {
+            width: 100%;
+            height: auto;
+            padding: 0px;
+    }
+
+    .imagem2 {
+            padding: 0;
+            margin: 0;
+    }
+
+    .imagem4 img {
+            width: 100%;
+            height: auto;
+    }
+
+
+    .imagem5 img {
+            width: 100%;
+            height: auto;
+            margin-top: 0;
+            padding: 0;
+            margin-top: 0;
+    }
+
+    .imagem5 p{
+            background-color: #fedfe2d5;
+            padding: 8px;
+            width: 100%;
+            height: 23px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 400px;
+            font-size: 37px;
+            align-items: center;
+            justify-content: center;
+        }
+
+    .imagensmeio img{
+            display: block;
+    }
+
+    .imagensmeio {
+        height: 100%;
+        
+    }
+
+    
+    .categ a:act
+
+    .fashion img {
+        width: 100%;
+        height: 410px;
+    }
+
+    .logofashion img {
+        width: 220px;
+        height: 160px;
+        position: relative;
+        bottom: 380px;
+        left: 355px;
+    }
+
+    .logofashion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logofashion p {
+        font-family: 'vic3';
+        color: #ffffff;
+        position: relative;
+        bottom: 255px;
+        font-size: 70px;
+        align-items: center;
+        justify-content: center;
+        right: 100px;
+    }
+
+    
